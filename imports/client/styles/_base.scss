@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  font-size: $base-font-size;
+  font-family: Helvetica, Arial, sans-serif; //dodamo i font family, prvo Helvetica, ako sistem nema taj onda pada na Arial pa na sans-serif
+}
+
+h1 {
+  font-weight: 300;
+  margin-bottom: $space;
+}
+
+h2 {
+  margin-bottom: $space;
+  font-size: $large-font-size;
+}
+
+a {
+  color: black;
+  font-size: $base-font-size;
+}
+
+input[type=text], input[type=email], input[type=password] {
+  font-size: $base-font-size;
+  margin-bottom: $space;
+  padding: $input-spaceing;
+  border: 1px solid $input-border;
+  }
+
+  p {
+    margin-bottom: $space;
+  }
