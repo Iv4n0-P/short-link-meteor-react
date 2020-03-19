@@ -9,6 +9,10 @@
     color: $item-text-color;
 }
 
+.item__url {
+    word-break: break-all;
+}
+
 .item__status-message {
  color: $item-text-color;
  font-style: italic;

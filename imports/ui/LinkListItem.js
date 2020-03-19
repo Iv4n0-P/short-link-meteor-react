@@ -28,7 +28,7 @@ export default (props) => {
 
     return (
         <div className="item">
-        <h2>{props.url}</h2>
+        <h2 className="item__url">{props.url}</h2>
         <p className="item__message">{props.shortUrl}</p>
         <p className="item__message">{props.visitedCount && renderStats()}</p>
         <a className="button button--pill button-link" href={props.shortUrl} target="_blank">Visit</a>
